@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Build Program</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Build Program</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ValueStream"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ValueStream" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="documentation" style="white-space:pre-wrap"><div class="markdown-body"><p>The act of creating and testing the program or modification and its supporting structures and approving for deployment.</p>
+</div></div>
+                        <div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Entrance Criteria</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Program specification approved</td></tr><tr><td>Exit Criteria</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Program ready for deployment</td></tr><tr><td>guild_concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Value Stream Stage</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-0617e5283aab41acb7e1a3d535654b64">
+																	<td><a href="../views/id-0617e5283aab41acb7e1a3d535654b64.html" target="view" title="Value Stream - Develop Program"> Value Stream - Develop Program </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-786e35d69d5948fdacd6cc8aad898c16">
+																	<td><a href="../views/id-786e35d69d5948fdacd6cc8aad898c16.html" target="view" title="Value Stream Map - By Category (with Stages)"> Value Stream Map - By Category (with Stages) </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-bc18c77d30234c818912647cd57ec93c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-InfluenceRelationship" /></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+											<td><a href="../elements/id-801ee2aebfaa48409fc756bb090223b5.html" target="element"> Program ready for deployment</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dff69f6ab2364b4c8a4f0d50adac22cc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+											<td><a href="../elements/id-dc9d9581bdd74292ae19567af6a9c200.html" target="element"> Deploy Program</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-937605539f2041f08d94f3fec590a4fa.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-383ef2e158b14ffe89b65f9d62007791.html" target="element"> Develop Program</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f364712599564ba482b5ed5bcef058de.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-4db05d336db149bcbb8b134b3a640b5f.html" target="element"> Design Program</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9d88aab131774e689269c7ba4092812c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c1c152c283c4400ab8407b344a50685e.html" target="element"> Program Owner</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ca64296f246546de8e877ea132fb020d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3676b373f4004c85a1d1540d2fe00d7e.html" target="element"> Professor</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-479066e9665f4c1c9096b2b7f85d2f3b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-b4ce0b3dceda42009b17289157f702e9.html" target="element"> Provost</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f0e13764a1ed41d8ad05ab1fa01c7ea2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-ca9fb801ec764b20a8c2e42516f4c09f.html" target="element"> IT Department</a></td>
+											<td><a href="../elements/id-f8c55d2c7db54fa5aa3680b3580654b0.html" target="element"> Build Program</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

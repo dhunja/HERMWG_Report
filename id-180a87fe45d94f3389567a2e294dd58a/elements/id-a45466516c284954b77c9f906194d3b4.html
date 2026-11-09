@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Facility</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Facility</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="documentation" style="white-space:pre-wrap"><div class="markdown-body"><p>A physical structure.</p>
+</div></div>
+                        <div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>HED Team Notes</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Andrew: 
+								- Recent CRM update deleted "at a given place where business is conducted".  This works better for HED.  
+								- Added Research as a type
+
+								Sales?))</td></tr><tr><td>Industry Model Reference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">CRM</td></tr><tr><td>Information Concept Category</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Primary</td></tr><tr><td>Information Concept States</td><td class="convertlinks no-margin" style="white-space:pre-wrap">In-Service, Not-in-Service</td></tr><tr><td>Information Concept Types</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Instructional, Library, Residence, Museum, Gallery, Laboratory, Office, , Storage, Service, Sales, Athletic, Recreation, Conference, Parking</td></tr><tr><td>guild_concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Information Concept</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-9f960edff7ad446e907342d3df8047d7">
+																	<td><a href="../views/id-9f960edff7ad446e907342d3df8047d7.html" target="view" title="Information Map"> Information Map </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-81de96aaa32b400ba57a4c87cd131787.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+											<td><a href="../elements/id-537b024f77e841feabee8c4e156a9ddf.html" target="element"> Location</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3b6dd778d3a44fdda556d205bfa81931.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+											<td><a href="../elements/id-b1186723e7ef4f6cacbe78071b42232b.html" target="element"> Plan</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8fd504c713894415ab8dc044ddf9fc1f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+											<td><a href="../elements/id-65d3046c0e5548ee9b21281adbde1111.html" target="element"> Policy</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-90493e9d27eb42dda59292437de68690.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-21c88879c58d4717b90d8f144970b7db.html" target="element"> Agreement</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7c8515feb1a4480899b082b3f1587b79.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c255308ab18e4ad1aed0489785d8878b.html" target="element"> Asset</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8de120bc5cbd4cbd8bb60e2387ce9192.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-66d48c80a48547b3a79dedd1b8e5c210.html" target="element"> Brand</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f2145d27c9144f5ab4af76511b9251c0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7ffbc05f5b5144c898cb740a31f5820a.html" target="element"> Course</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5d96655ff228480197c337672e1f1143.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f12acbad2fd946a78cf2bf6f3cbf2476.html" target="element"> Decision</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-33dc5937320644fba2285bde08985edc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e74db4ba4a8b4a3eb64549e48d24d37c.html" target="element"> Event</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e6f237c6969d48ae85e6d295c53fc810.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-90f0f1e72ed0466aa19890d7aafa95dd.html" target="element"> Human Resource</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dd57a8707dc747728230a045d881f171.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f04776bd9fe84147b090bf1e31abb3ab.html" target="element"> Interaction</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8c342fed2520417aba768ed2d41ed7a6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-31ebda131bb1403a83b661fd31d6d4b8.html" target="element"> Order</a></td>
+											<td><a href="../elements/id-a45466516c284954b77c9f906194d3b4.html" target="element"> Facility</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
