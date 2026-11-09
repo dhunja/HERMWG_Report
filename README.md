@@ -14,10 +14,12 @@ Open the link in any web browser. No Archi software or GitHub account is needed.
 
 Step 1. In Archi, open BIZBOK_HERM on the master branch and run Collaboration > Refresh Model.
 
-Step 2. Use Archi's HTML report export and save the report to a new, empty folder.
+Step 2. Update the "As of" date in the model's Purpose (select the model in the Models tree, then the Properties view) to today's date. Commit and publish that change in Archi.
 
-Step 3. In GitHub Desktop, open your clone of this repository. Replace everything in it except README.md and .nojekyll with the exported files, so that index.html sits at the top level next to this README.
+Step 3. Use Archi's HTML report export and save the report to a new, empty folder.
 
-Step 4. Commit with a message that includes the date, then push. The site updates within a few minutes.
+Step 4. In GitHub Desktop, open your clone of this repository. Replace everything in it except README.md and .nojekyll with the exported files, so that index.html sits at the top level next to this README.
+
+Step 5. Commit with a message that includes the date, then push. The site updates within a few minutes.
 
 The report is a snapshot of the model when it was exported. Re-export and re-upload after the model changes.
